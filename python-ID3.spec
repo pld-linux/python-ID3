@@ -46,7 +46,7 @@ proszeni s± o kontakt z autorem.
 
 %build
 CFLAGS="%{rpmcflags}"
-export CLFAGS
+export CFLAGS
 python setup.py build
 
 %install

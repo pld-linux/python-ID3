@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.python
 
-%define         module ID3
+%define         module	ID3
 
 Summary:	Module for manipulating ID3 informational tags on MP3 audio files
 Summary(pl):	Modu³ s³u¿±cy do manipulacji znacznikami ID3 plików MP3

@@ -55,9 +55,10 @@ install -d $RPM_BUILD_ROOT%{py_sitedir}
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 install id3-tagger.py $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 python setup.py install \
-        --root=$RPM_BUILD_ROOT --optimize=2
+	--root=$RPM_BUILD_ROOT \
+	--optimize=2
 
-rm -f $RPM_BUILD_ROOT%{py_sitedir}/%{module}/*.py
+rm -f $RPM_BUILD_ROOT%{py_sitescriptdir}/*.py
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -65,6 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README CHANGES
-%{py_sitedir}/*.py[co]
+%{py_sitescriptdir}/*.py[co]
 %dir %{_examplesdir}/%{name}-%{version}
 %{_examplesdir}/%{name}-%{version}/*

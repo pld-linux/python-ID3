@@ -2,7 +2,7 @@
 %define		module	ID3
 
 Summary:	Module for manipulating ID3 informational tags on MP3 audio files
-Summary(pl):	Modu≥ s≥uø±cy do manipulacji znacznikami ID3 plikÛw MP3
+Summary(pl.UTF-8):   Modu≈Ç s≈Çu≈ºƒÖcy do manipulacji znacznikami ID3 plik√≥w MP3
 Name:		python-%{module}
 Version:	1.2
 Release:	3
@@ -28,17 +28,17 @@ have no current plans to code up the monstrosity that is ID3v2
 (http://www.id3.org/id3v2.3.0.html) but if someone wants to add that
 functionality, feel free!
 
-%description -l pl
-Jest to prosty modu≥ Pythona s≥uø±cy do pobierania i ustawiania tak
-zwanych znacznikÛw ID3 ze skompresowanych plikÛw audio MP3 poprzez
-obiektowy interfejs. Odtwarzacze MP3 korzystaj± z tych prostych
-informacji do wy∂wietlania numeru ∂cieøki, nazwy twÛrcy i tytu≥u
+%description -l pl.UTF-8
+Jest to prosty modu≈Ç Pythona s≈Çu≈ºƒÖcy do pobierania i ustawiania tak
+zwanych znacznik√≥w ID3 ze skompresowanych plik√≥w audio MP3 poprzez
+obiektowy interfejs. Odtwarzacze MP3 korzystajƒÖ z tych prostych
+informacji do wy≈õwietlania numeru ≈õcie≈ºki, nazwy tw√≥rcy i tytu≈Çu
 albumu w czasie odtwarzania pliku.
 
-ID3.py obs≥uguje taki ID3 w wersji 1.1, w≥±czaj±c w to numery ∂cieøek.
-Chwilowo nie jest planowana obs≥uga ID3v2
-(http://www.id3.org/id3v2.3.0.html) - chÍtni do dodania takiej obs≥ugi
-proszeni s± o kontakt z autorem.
+ID3.py obs≈Çuguje taki ID3 w wersji 1.1, w≈ÇƒÖczajƒÖc w to numery ≈õcie≈ºek.
+Chwilowo nie jest planowana obs≈Çuga ID3v2
+(http://www.id3.org/id3v2.3.0.html) - chƒôtni do dodania takiej obs≈Çugi
+proszeni sƒÖ o kontakt z autorem.
 
 %prep
 %setup -q -n id3-py-%{version}

@@ -2,7 +2,7 @@
 %define		module	ID3
 
 Summary:	Module for manipulating ID3 informational tags on MP3 audio files
-Summary(pl.UTF-8):   Moduł służący do manipulacji znacznikami ID3 plików MP3
+Summary(pl.UTF-8):	Moduł służący do manipulacji znacznikami ID3 plików MP3
 Name:		python-%{module}
 Version:	1.2
 Release:	3

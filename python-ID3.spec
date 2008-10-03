@@ -5,7 +5,7 @@ Summary:	Module for manipulating ID3 informational tags on MP3 audio files
 Summary(pl.UTF-8):	Moduł służący do manipulacji znacznikami ID3 plików MP3
 Name:		python-%{module}
 Version:	1.2
-Release:	3
+Release:	4
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/id3-py/id3-py_%{version}.tar.gz

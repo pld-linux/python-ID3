@@ -13,6 +13,8 @@ Source0:	http://dl.sourceforge.net/id3-py/id3-py_%{version}.tar.gz
 URL:		http://id3-py.sourceforge.net/
 BuildRequires:	python
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

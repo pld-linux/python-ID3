@@ -46,18 +46,14 @@ proszeni są o kontakt z autorem.
 %setup -q -n id3-py-%{version}
 
 %build
-CFLAGS="%{rpmcflags}"
-export CFLAGS
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 install id3-tagger.py $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 rm -f $RPM_BUILD_ROOT%{py_sitescriptdir}/*.py
 
